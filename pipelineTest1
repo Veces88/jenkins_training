@@ -4,7 +4,7 @@ node {
     }
     
     stage ('Write'){
-        sh 'echo Trecem de la spaniola la romana > NewFile'
+        sh 'echo Trecem de la spaniola la rusa > NewFile'
     }
     stage ('Print') {
         sh 'cat NewFile'
