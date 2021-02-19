@@ -1,0 +1,14 @@
+node {
+    stage('Create New File') {
+        sh 'touch NewFile'
+    }
+    
+    stage ('Write'){
+        sh 'echo Andale y dos Andale > NewFile'
+    }
+    stage ('Print') {
+        sh 'cat NewFile'
+    }
+    }
+    
+    
