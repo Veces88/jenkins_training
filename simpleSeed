@@ -1,4 +1,4 @@
-job('simpleTrigger') {
+job('seedTestJob') {
   parameters {
     stringParam('Object', 'Undescribed', 'First string param')
   }  
