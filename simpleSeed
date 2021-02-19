@@ -1,0 +1,10 @@
+job('simpleTrigger') {
+  parameters {
+    stringParam('Object', 'Undescribed', 'First string param')
+  }  
+  steps{
+    shell('echo $JOB_NAME $BUILD_NUMBER')
+    shell('echo $Object')
+  }
+
+}
